@@ -30,7 +30,7 @@ min-height: 100vh;
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px;
     
 }
 
@@ -42,6 +42,7 @@ nav{
     text-decoration: none;
     display: inline-block;
     position: relative;
+    padding: 10px;
 }
 
 .links ul li a{
@@ -62,3 +63,54 @@ nav{
     color: #9ad20c;;
     border-radius: 5px;
 }
+.inst{
+    text-align: center;
+    
+}
+.pic{
+  width: 200px;
+  height: 200px;
+}
+ @media (max-width:600px) {
+    .register{
+    background-position: center;
+    border-radius: 5px;
+    height: 300px;
+    padding-left: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.links{
+    flex: 1;
+    text-align: right;
+}
+.links ul li {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: rgb(244, 244, 244);
+    font-size: 15px;
+   border-radius: 1px;
+   padding: 4px;
+
+
+}
+.links ul li a:hover{
+    font-size:110%;
+   
+}
+.logo{
+    height: 50px;}
+
+
+    
+   }

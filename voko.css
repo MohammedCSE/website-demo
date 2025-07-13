@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(70, 9, 65, 0.7),rgb(70, 9, 65, 0.7)) ,url(back.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+
+}
